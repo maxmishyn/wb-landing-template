@@ -1,19 +1,19 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Lorem Ipsum",
+  name: "Wedding Budget Planning",
   seo: {
-    title: "Mobile App Landing Template",
-    description: "Mobile App Landing Template",
+    title: "Wedding Budget Planning Mobile Application",
+    description: "Wedding Budget Planning Mobile Application",
   },
   // Draws grid behind main container
   backgroundGrid: false,
-  logo: "/logo.svg",
-  theme: "corporate",
+  logo: "/playstore.png",
+  theme: "cupcake",
   // Forces theme to be chosen above, no matter what user prefers
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
-  showThemeSwitch: true,
+  showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
   googlePlayLink:
     "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
@@ -49,13 +49,13 @@ const templateConfig: TemplateConfig = {
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Our Mobile App Today!",
+    title: "Download and start Budgeting Today!",
     subtitle:
-      "Unlock the full potential of our services with seamless access at your fingertips. Stay connected, informed, and in control wherever you are.",
+      "Start budgeting in minutes with our ready-to-use templates. Easily manage and track your wedding expenses in real time.",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.png",
+      "/screenshots/2.png",
+      "/screenshots/3.png",
     ],
   },
   home: {
@@ -95,15 +95,15 @@ const templateConfig: TemplateConfig = {
         },
       ],
     },
-    partners: {
-      title: "As seen on",
-      logos: [
-        "/misc/companies/apple.svg",
-        "/misc/companies/aws.svg",
-        "/misc/companies/google.svg",
-        "/misc/companies/tumblr.svg",
-      ],
-    },
+    // partners: {
+    //   title: "As seen on",
+    //   logos: [
+    //     "/misc/companies/apple.svg",
+    //     "/misc/companies/aws.svg",
+    //     "/misc/companies/google.svg",
+    //     "/misc/companies/tumblr.svg",
+    //   ],
+    // },
     howItWorks: {
       id: "how-it-works",
       title: "How it works",
@@ -113,63 +113,57 @@ const templateConfig: TemplateConfig = {
         {
           title: "Install the App",
           subtitle:
-            "Download and install the app on your device to get started quickly and easily.",
+            "Download and install the app from the App Store or Google Play to get started on your wedding planning journey.",
           image: "/stock/01.webp",
         },
         {
-          title: "Create an Account",
+          title: "Create New Budget",
           subtitle:
-            "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
+            "Set up your customized wedding budget by entering your total budget number of guests and customizing categories to fit your needs..",
           image: "/stock/02.webp",
         },
         {
-          title: "Set Up Your Profile",
+          title: "Start to Collaborate",
           subtitle:
-            "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
+            "Invite your partner or wedding planner to join and manage your budget together, making planning seamless.",
           image: "/stock/03.webp",
         },
         {
-          title: "Explore Features",
+          title: "Track Your Wedding Payments",
           subtitle:
-            "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
+            "Easily log deposits, payments, and expenses, keeping track of your financial progress every step of the way.",
           image: "/stock/04.webp",
-        },
-        {
-          title: "Connect with Others",
-          subtitle:
-            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
-          image: "/stock/05.webp",
         },
       ],
     },
     features: {
       id: "features",
-      title: "Transform Your Daily Routine",
+      title: "Effortless Wedding Planning",
       subtitle:
-        "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
+        "From budgeting to vendor management, our app simplifies every step of your wedding journey.",
       cards: [
         {
-          title: "Seamless Integration",
+          title: "Budget Templates",
           subtitle:
-            "Connect effortlessly with all your devices, ensuring smooth and efficient workflows across different platforms and applications without any disruptions",
+            "Start budgeting in minutes with our ready-to-use templates.",
           icon: "/3D/link-front-color.webp",
         },
         {
-          title: "24/7 Customer Support",
+          title: "Budget Tracking",
           subtitle:
-            "Get assistance whenever you need it with our dedicated customer support team, available around the clock to help resolve any issues you may encounter",
+            "Easily manage and track your wedding expenses in real time.",
           icon: "/3D/clock-front-color.webp",
         },
         {
-          title: "Intuitive Design",
+          title: "Collaborative Planning",
           subtitle:
-            "Navigate through our intuitive and easy-to-use interface designed to enhance user experience, making it accessible for users of all skill levels",
+            "Plan with your partner or wedding party seamlessly.",
           icon: "/3D/roll-brush-front-color.webp",
         },
         {
-          title: "Top-Notch Security",
+          title: "Expense Analysis",
           subtitle:
-            "Protect your data with our top-notch security protocols, offering robust encryption and real-time monitoring to keep your information safe and secure",
+            "Get insightful reports on where your money is going.",
           icon: "/3D/sheild-front-color.webp",
         },
       ],
@@ -179,44 +173,44 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "How can I create an account on your website?",
+          question: "Is the app free to use?",
           answer:
-            "To create an account, click on the 'Sign Up' button located at the top right corner of our homepage. Fill in the required information, including your name, email address, and password. Once you submit the form, you will receive a confirmation email. Click the link in the email to verify your account, and you're all set!",
+            "Yes, the app is free to download and includes basic features. You can upgrade to premium for additional features and customization options.",
         },
         {
-          question: "What payment methods do you accept?",
+          question: "How do I collaborate with my partner?",
           answer:
-            "We accept a variety of payment methods to ensure convenience for our customers. These include major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. For more details, visit our Payments page.",
+            "Simply invite your partner by sharing budget with them an invitation through the app. Both of you can then view and manage the budget together in real time.",
         },
         {
-          question: "How can I track my order?",
-          answer:
-            "Once your order is shipped, you will receive an email with a tracking number. You can use this tracking number on our website under the 'Track Order' section to see the current status and estimated delivery date of your package.",
-        },
-        {
-          question: "What is your return policy?",
+          question: "Can I track payments and expenses offline?",
           answer:
             "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
         },
         {
-          question: "How can I contact customer support?",
+          question: "Can I work on budgets offline?",
           answer:
-            "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
+            "The current version of the app requires an internet connection to sync data across devices. We are working on an offline mode feature that will be available in the next update.",
+        },
+        {
+          question: "Can I customize my budget categories?",
+          answer:
+            "Absolutely! You can easily create, edit, or delete categories to tailor your budget to your specific wedding needs.",
         },
       ],
     },
     header: {
-      headline: "Your Ultimate App for Every Need",
+      headline: "Budget Your Dream Wedding Effortlessly",
       subtitle:
-        "Streamline your tasks, boost your productivity, and accomplish more every day. Unlock a world of possibilities with our cutting-edge mobile application.",
+        "Easily track expenses, manage vendors, and collaborate with your partner to stay on top of your big day. Plan smarter, save more, and enjoy a stress-free countdown to 'I do!'",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
-        "/screenshots/3.webp",
+        "/screenshots/1.png",
+        "/screenshots/2.png",
+        "/screenshots/3.png",
       ],
-      rewards: ["App of the year \n 1st", "Product of the day"],
+      // rewards: ["App of the year \n 1st", "Product of the day"],
       usersDescription: "100+ people already using the app",
-      headlineMark: [1, 3],
+      headlineMark: [2, 4],
     },
     pricing: {
       id: "pricing",
@@ -256,67 +250,134 @@ const templateConfig: TemplateConfig = {
   },
   privacyPolicy: {
     seo: {
-      title: "Privacy Policy - Mobile App Landing Template",
+      title: "Privacy Policy - Wedding Budget Planning Mobile Application",
       description: "Privacy Policy",
     },
     content: `# Privacy Policy
+Last updated: December 27, 2024
 
-**Effective Date:** [Insert Date]
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
-## Introduction
+We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
-Welcome to [Your App Name] (the "App"). [Your Company Name] ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your personal information when you use our App.
+## Interpretation and Definitions
+### Interpretation
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+### Definitions
+For the purposes of this Privacy Policy:
 
-## Information We Collect
+- **Account**  means a unique account created for You to access our Service or parts of our Service.
+- **Affiliate**  means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+- **Application**  refers to test yu, the software program provided by the Company.
+- **Company**  (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to test yu.
+- **Country**  refers to:  Lithuania
+- **Device**  means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+- **Personal Data**  is any information that relates to an identified or identifiable individual.
+- **Service**  refers to the Application.
+- **Service Provider**  means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
+- **Usage Data**  refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+- **You**  means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
-### 1. Information You Provide
-- **Account Information:** When you sign up for our App, we may collect your name, email address, and other contact information.
-- **User Content:** We may collect any content you upload, post, or otherwise transmit through the App, including messages, photos, and other media.
+## Collecting and Using Your Personal Data
+### Types of Data Collected
+#### Personal Data
+While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:
 
-### 2. Information We Collect Automatically
-- **Usage Data:** We collect information about your interactions with the App, such as the features you use and the time spent on the App.
-- **Device Information:** We collect information about the device you use to access the App, including IP address, device type, and operating system.
+- Email address
+- First name and last name
+- Usage Data
 
-### 3. Information from Third Parties
-- **Third-Party Services:** If you connect to the App through a third-party service (e.g., social media), we may collect information from that service as permitted by their privacy policies.
+#### Usage Data
+Usage Data is collected automatically when using the Service.
 
-## How We Use Your Information
+Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-We may use the information we collect for the following purposes:
-- **To Provide and Maintain Our Service:** We use your information to operate and improve the App.
-- **To Communicate with You:** We may use your contact information to send you updates, notifications, and other communications related to the App.
-- **To Personalize Your Experience:** We may use your information to personalize your experience with the App and to offer you content tailored to your interests.
-- **For Analytics and Research:** We use the information to analyze how our users interact with the App and to improve our services.
+When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
 
-## Sharing Your Information
+We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
 
-We do not share your personal information with third parties except in the following circumstances:
-- **With Your Consent:** We may share your information with third parties if you give us explicit consent to do so.
-- **Service Providers:** We may share your information with third-party service providers who perform services on our behalf.
-- **Legal Requirements:** We may disclose your information if required by law, or if we believe that such action is necessary to comply with legal obligations, protect our rights, or prevent fraud.
+### Use of Your Personal Data
+The Company may use Personal Data for the following purposes:
 
-## Your Rights and Choices
+- **To provide and maintain our Service**, including to monitor the usage of our Service.
+- **To manage Your Account:**  to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.
+- **For the performance of a contract:**  the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.
+- **To contact You:**  To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.
+- **To provide You**  with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.
+- **To manage Your requests:**  To attend and manage Your requests to Us.
+- **For business transfers:**  We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.
+- **For other purposes** : We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.
 
-- **Access and Correction:** You have the right to access and correct the personal information we hold about you.
-- **Data Deletion:** You may request that we delete your personal information by contacting us at [Your Contact Information].
-- **Opt-Out:** You may opt out of receiving promotional communications from us by following the instructions in those communications.
+We may share Your personal information in the following situations:
 
-## Security
+- **With Service Providers:**  We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.
+- **For business transfers:**  We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.
+- **With Affiliates:**  We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.
+- **With business partners:**  We may share Your information with Our business partners to offer You certain products, services or promotions.
+- **With other users:**  when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.
+- **With Your consent** : We may disclose Your personal information for any other purpose with Your consent.
 
-We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no security system is completely secure, and we cannot guarantee the absolute security of your information.
+### Retention of Your Personal Data
+The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
 
-## Changes to This Privacy Policy
+The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" above. Your continued use of the App after such changes signifies your acceptance of the revised Privacy Policy.
+### Transfer of Your Personal Data
+Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+
+Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.
+
+The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.
+
+### Delete Your Personal Data
+You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
+
+Our Service may give You the ability to delete certain information about You from within the Service.
+
+You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.
+
+Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
+
+### Disclosure of Your Personal Data
+#### Business Transactions
+If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+
+#### Law enforcement
+Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).
+
+#### Other legal requirements
+The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
+
+- Comply with a legal obligation
+- Protect and defend the rights or property of the Company
+- Prevent or investigate possible wrongdoing in connection with the Service
+- Protect the personal safety of Users of the Service or the public
+- Protect against legal liability
+
+### Security of Your Personal Data
+The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+
+## Children's Privacy
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
+
+If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
+
+## Links to Other Websites
+Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+## Changes to this Privacy Policy
+We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
+
+We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ## Contact Us
+If you have any questions about this Privacy Policy, You can contact us:
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+- By email: info@myemail.my
 
 `,
   },

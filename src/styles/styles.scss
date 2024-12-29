@@ -5,39 +5,42 @@
   font-style: normal;
   font-display: swap;
 }
-@font-face {
-  font-family: "Rowdies";
-  src: url("/fonts/Rowdies-Light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Rowdies";
-  src: url("/fonts/Rowdies-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+
 html {
   scroll-behavior: smooth;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo {
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px #7c4404;
+  margin: 0 0.5rem;
+}
+
 .backgroundGrid {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: -9;
   background-size: 50px 50px;
-  background-image: linear-gradient(
-      rgba(200, 200, 200, 0.1) 1px,
-      transparent 1px
-    ),
+  background-image: linear-gradient(rgba(200, 200, 200, 0.1) 1px,
+      transparent 1px),
     linear-gradient(to right, rgba(200, 200, 200, 0.1) 1px, transparent 1px);
 }
+
 [data-theme="dark"] .backgroundGrid {
-  background-image: linear-gradient(
-      rgba(200, 200, 200, 0.03) 1px,
-      transparent 1px
-    ),
+  background-image: linear-gradient(rgba(200, 200, 200, 0.03) 1px,
+      transparent 1px),
     linear-gradient(to right, rgba(200, 200, 200, 0.03) 1px, transparent 1px);
 }

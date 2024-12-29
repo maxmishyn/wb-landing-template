@@ -13,8 +13,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sketch: ["CabinSketch", ...defaultTheme.fontFamily.mono],
-        sans: ["Rowdies", ...defaultTheme.fontFamily.sans],
+        sketch: ["'Fredericka the Great'", ...defaultTheme.fontFamily.sans],//...defaultTheme.fontFamily.mono
+        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
+        headings: ["Playfair Display", ...defaultTheme.fontFamily.serif],
       },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
