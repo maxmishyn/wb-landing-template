@@ -115,7 +115,7 @@ function Header() {
               {header.usersDescription && (
                 <div className="not-prose flex items-center gap-2 my-1">
                   <ul className="avatar-group -space-x-4">
-                    {Array.from(Array(5)).map((_, index) => (
+                    {Array.from(Array(6)).map((_, index) => (
                       <motion.li
                         key={index}
                         initial={{ scale: 0, opacity: 0 }}
